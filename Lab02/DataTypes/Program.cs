@@ -118,8 +118,8 @@ int minute = 30;
 // stwórz zmienną typu DateTime jako wartość złożoną z powyższych składowych
 DateTime newDate = new DateTime(year, month, day, hour, minute, 0);
 // następnie dodaj do niej 3 miesiące, odejmij 1 godzinę
-newDate.AddMonths(3);
-newDate.AddHours(-1);
+newDate = newDate.AddMonths(3);
+newDate = newDate.AddHours(-1);
 
 Console.WriteLine(newDate.ToString());
 
@@ -180,7 +180,8 @@ Console.WriteLine("====== ZADANIE 9 ");
 /* zadanie 9 */
 string conditionalString = "To be or not to be?";
 // jeśli długość ciągu znaków jest większa niż 10 to wyświetl na ekran ten tekst
-if(conditionalString.Length > 10) Console.WriteLine(conditionalString);
+if(conditionalString.Length > 10)
+    Console.WriteLine(conditionalString);
 
 /* koniec zadania 9 */
 
@@ -230,7 +231,7 @@ else if(code >= 16)
     {
         sellPrice = quantity * productPrice;
     }
-    else if(quantity > 20 && quantity < 100)
+    else if(quantity > 20 && quantity <= 100)
     {
         decimal bon = (quantity / 10)/100m;
         //Console.WriteLine($"bon = {bon}");
