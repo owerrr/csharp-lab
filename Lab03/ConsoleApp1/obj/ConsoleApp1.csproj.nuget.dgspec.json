@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "D:\\! GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "D:\\! GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "D:\\! GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "D:\\Users\\denis.biskup\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\obj\\",
+        "projectPath": "D:\\! GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\owr\\.nuget\\packages\\",
+        "outputPath": "D:\\! GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "D:\\Users\\denis.biskup\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\owr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

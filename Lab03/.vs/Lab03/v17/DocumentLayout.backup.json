@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab03\\",
+  "WorkspaceRootPath": "D:\\! GitHub\\csharp-lab\\Lab03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D4ABEB70-863A-4863-9EEA-878893166902}|ConsoleApp1\\ConsoleApp1.csproj|d:\\users\\denis.biskup\\documents\\github\\csharp-lab\\lab03\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D4ABEB70-863A-4863-9EEA-878893166902}|ConsoleApp1\\ConsoleApp1.csproj|d:\\! github\\csharp-lab\\lab03\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D4ABEB70-863A-4863-9EEA-878893166902}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "D:\\! GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
-              "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\! GitHub\\csharp-lab\\Lab03\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAAwKIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAqwPIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T14:23:43.51Z",
               "EditorCaption": ""

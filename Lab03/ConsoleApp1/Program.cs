@@ -1,7 +1,4 @@
-﻿//
-using System.Collections.Generic;
-
-Console.WriteLine("Zadanie 1");
+﻿Console.WriteLine("Zadanie 1");
 zad1();
 Console.WriteLine("\nZadanie 2");
 zad2();
@@ -25,7 +22,8 @@ Console.WriteLine("\nZadanie 12");
 zad12();
 Console.WriteLine("\nZadanie 13");
 zad13();
-
+Console.WriteLine("\nZadanie 14");
+zad14();
 
 // zadanie 1
 void zad1()
@@ -63,7 +61,7 @@ void zad3()
 
 void zad4()
 {
-    for(int i = 1; i <= 15; i++)
+    for (int i = 1; i <= 15; i++)
     {
         Console.WriteLine(Math.Pow(i, 2));
     }
@@ -73,9 +71,9 @@ void zad5()
 {
     List<int> numbers = new List<int>() { 4, 25, 35, 42, 55, 78, 99, 101 };
 
-    foreach(int n in numbers)
+    foreach (int n in numbers)
     {
-        if(n%7 == 0) Console.WriteLine(n);
+        if (n % 7 == 0) Console.WriteLine(n);
     }
 }
 
@@ -98,7 +96,7 @@ void zad7()
     const int MAX_SIZE = 20;
     double[] numbers = new double[MAX_SIZE];
 
-    for(int i = 0; i < MAX_SIZE; i++)
+    for (int i = 0; i < MAX_SIZE; i++)
     {
         numbers[i] = Math.Sqrt(i + 1);
     }
@@ -110,9 +108,9 @@ void zad8()
     const int MAX_SIZE_ROWS = 4;
     int[,] numbers_2D = new int[MAX_SIZE_COL, MAX_SIZE_ROWS];
 
-    for(int i = 0; i < MAX_SIZE_COL; i++)
+    for (int i = 0; i < MAX_SIZE_COL; i++)
     {
-        for(int j = 0; j < MAX_SIZE_ROWS; j++)
+        for (int j = 0; j < MAX_SIZE_ROWS; j++)
         {
             numbers_2D[i, j] = j;
         }
@@ -135,9 +133,9 @@ void zad11()
     {
         char[,] arr = new char[x, y];
 
-        for(int i = 0; i < x; i++)
+        for (int i = 0; i < x; i++)
         {
-            for(int j = 0; j < y; j++)
+            for (int j = 0; j < y; j++)
             {
                 arr[i, j] = '$';
             }
@@ -177,7 +175,8 @@ void zad13()
 {
     char[,] charArray;
     int x, y;
-    void WczytajZKlawiatury() {
+    void WczytajZKlawiatury()
+    {
         Console.Write("\nKreator tablicy\nPodaj wymiar X tablicy:");
         x = int.Parse(Console.ReadLine());
         Console.Write("\nPodaj wymiar Y tablicy: ");
@@ -191,13 +190,13 @@ void zad13()
         {
             for (int j = 0; j < m; j++)
             {
-                if(i == 0 || i == n - 1)
+                if (i == 0 || i == n - 1)
                 {
                     charArray[i, j] = '#';
                 }
                 else
                 {
-                    if(j == 0 || j == m - 1)
+                    if (j == 0 || j == m - 1)
                     {
                         charArray[i, j] = '#';
                     }
@@ -211,13 +210,13 @@ void zad13()
     }
     void WyswietlTabliceNaEkran(char[,] arr)
     {
-        for(int i = 0; i < x; i++)
+        for (int i = 0; i < x; i++)
         {
-            for(int j = 0; j < y; j++)
+            for (int j = 0; j < y; j++)
             {
-                if(j == y - 1)
+                if (j == y - 1)
                 {
-                    Console.Write(arr[i, j]+"\n");
+                    Console.Write(arr[i, j] + "\n");
                 }
                 else
                 {
@@ -228,6 +227,36 @@ void zad13()
         }
     }
     WczytajZKlawiatury();
-    WypelnijTablice(x,y);
+    WypelnijTablice(x, y);
     WyswietlTabliceNaEkran(charArray);
+}
+
+void zad14()
+{
+    double a, b, c;
+    Console.Write("\nOBLICZ ROWNANIE KWADRATOWE\n" +
+                    "===============================" +
+                    "Podaj A:\n > ");
+    a = double.Parse(Console.ReadLine());
+    Console.Write("\nPodaj B:\n > ");
+    b = double.Parse(Console.ReadLine());
+    Console.Write("\nPodaj C:\n > ");
+    c = double.Parse(Console.ReadLine());
+
+    double delta = Math.Pow(b, 2) - 4 * a * c;
+    if (delta == 0)
+    {
+        double result = Math.Round((b * -1) / 2 * a,2);
+        Console.WriteLine($"Rownanie kwadratowe ma jeden wynik!\n > {result}");
+    }
+    else if (delta > 0)
+    {
+        double result1 = Math.Round((b * -1 - Math.Sqrt(delta)) / 2 * a,2);
+        double result2 = Math.Round((b * -1 + Math.Sqrt(delta)) / 2 * a,2);
+        Console.WriteLine($"Rownanie kwadratowe ma dwa wyniki!\n > {result1}\n > {result2}");
+    }
+    else
+    {
+        Console.WriteLine("Rownanie kwadratowe nie ma ani jednego wyniku!\n(delta wyszla ujemna)");
+    }
 }
