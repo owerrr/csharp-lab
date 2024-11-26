@@ -14,11 +14,11 @@
 
         public static (int,int) getMinAndMax(int[] input) {
             (int, int) res = (input[0], input[0]);
-            for (int i = 1; i < input.Length; i++)
+                for (int i = 1; i < input.Length; i++)
                 {
                     if(res.Item1 > input[i]) res.Item1 = input[i];
                     else if(res.Item2 < input[i]) res.Item2 = input[i];
-            }
+                }
             
             return res;
         }
@@ -36,27 +36,34 @@
                 Console.WriteLine("Different structs");
 
             Console.WriteLine("\n=========================\n\tZADANIE 1\n=========================");
+           
             point1 = new Coords(1.0, 1.0);
             point2 = new Coords(2.0, 2.0);
+            
             Console.WriteLine($"Line start=({point1.X},{point1.Y})  Line end=({point2.X},{point2.Y})");
             Coords[] coords = {point1, point2 };
             Console.WriteLine(CountCoordsLength(coords));
 
             Console.WriteLine("\n=========================\n\tZADANIE 2\n=========================");
+            
             int[] minAndMaxInput = { 2, 3, 16, 2, -25, 2, 0, 1, 4 };
             (int,int) filtered = getMinAndMax(minAndMaxInput);
+            
             Console.WriteLine($"Min = {filtered.Item1}\nMax = {filtered.Item2}");
 
             Console.WriteLine("\n=========================\n\tZADANIE 3\n=========================");
+            
             Person person1 = new Person();
-            person1.FirstName = "John";
-            person1.LastName = "Doe";
+                person1.FirstName = "John";
+                person1.LastName = "Doe";
+
             Console.WriteLine($"Person={person1.FirstName} {person1.LastName}");
             //Console.WriteLine(DateTime.Today.ToString());
 
             
             Person person2 = new Person("Andrzej", "Kmicic", new DateTime(2001, 06, 22));
             string isAdult = person2.IsAdult() ? $"jestes pelnoletni!\nmasz juz {person2.GetAge()} lat/a!" : $"nie jestes pelnoletni!\nmasz dopiero {person2.GetAge()} lat/a!";
+            
             Console.WriteLine($"Hej {person2.FirstName} {person2.LastName}!\nWidze, ze {isAdult}");
         }
     }
