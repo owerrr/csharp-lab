@@ -12,13 +12,14 @@
             return res;
         }
 
-        public static int[] getMinAndMax(int[] input) {
-            int[] res = { input[0], input[0] };
-                for(int i = 1; i < input.Length; i++)
+        public static (int,int) getMinAndMax(int[] input) {
+            (int, int) res = (input[0], input[0]);
+            for (int i = 1; i < input.Length; i++)
                 {
-                    if(res[0] > input[i]) res[0] = input[i];
-                    else if(res[1] < input[i]) res[1] = input[i];
+                    if(res.Item1 > input[i]) res.Item1 = input[i];
+                    else if(res.Item2 < input[i]) res.Item2 = input[i];
             }
+            
             return res;
         }
 
@@ -43,8 +44,8 @@
 
             Console.WriteLine("\n=========================\n\tZADANIE 2\n=========================");
             int[] minAndMaxInput = { 2, 3, 16, 2, -25, 2, 0, 1, 4 };
-            int[] filtered = getMinAndMax(minAndMaxInput);
-            Console.WriteLine($"Min = {filtered[0]}\nMax = {filtered[1]}");
+            (int,int) filtered = getMinAndMax(minAndMaxInput);
+            Console.WriteLine($"Min = {filtered.Item1}\nMax = {filtered.Item2}");
 
             Console.WriteLine("\n=========================\n\tZADANIE 3\n=========================");
             Person person1 = new Person();
@@ -55,7 +56,7 @@
 
             
             Person person2 = new Person("Andrzej", "Kmicic", new DateTime(2001, 06, 22));
-            string isAdult = person2.IsAdult() ? $"jestes pelnoletni!\nmasz juz {person2.GetAge()} lat!" : $"nie jestes pelnoletni!\nmasz dopiero {person2.GetAge()} lat!";
+            string isAdult = person2.IsAdult() ? $"jestes pelnoletni!\nmasz juz {person2.GetAge()} lat/a!" : $"nie jestes pelnoletni!\nmasz dopiero {person2.GetAge()} lat/a!";
             Console.WriteLine($"Hej {person2.FirstName} {person2.LastName}!\nWidze, ze {isAdult}");
         }
     }

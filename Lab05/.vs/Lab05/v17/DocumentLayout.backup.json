@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Person.cs",
               "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab05\\ConsoleApp1\\Person.cs",
               "RelativeToolTip": "ConsoleApp1\\Person.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAYwCsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAA8wCUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T15:40:13.278Z",
               "IsPinned": true,
@@ -46,7 +46,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab05\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAcwCQAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T15:23:25.672Z",
               "EditorCaption": ""
@@ -61,8 +61,7 @@
               "RelativeToolTip": "ConsoleApp1\\Coords.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T15:23:36.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T15:23:36.195Z"
             }
           ]
         }
