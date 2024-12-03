@@ -16,5 +16,7 @@ namespace ConsoleApp1
             this.Name = name;
             this.Species = species;
         }
+
+        
     }
 }

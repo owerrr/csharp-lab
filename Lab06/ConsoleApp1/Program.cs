@@ -2,6 +2,7 @@
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
             //Person child = Person.NewlyBornChild;
@@ -14,11 +15,13 @@
             //else
             //    Console.WriteLine(p1.FirstName);
 
+            Person p1 = new Person() { FirstName = "Jan", LastName = "Andrzej" };
+
             Person p2 = new Person("Andrzej", "Raciborz", new DateTime(2004, 06, 14), "blue", "brown", false);
             Animal dog1 = new Animal("Ruby", "Owczarek niemiecki");
             p2.AdoptAPet(dog1);
             Person p3 = new Person("Karol", "Andrzej", new DateTime(2004, 05, 12));
-            p2.Relate(p2,p3);
+            Person.Relate(p2, p3);
             
             string isAdult = p2.IsAdult() ? "oznacza to, ze jestes pelnoletni!" : "oznacza to, ze jestes niepelnoletni...";
             string hasFreckles = p2.HasFreckles ? "posiada" : "nie posiada";

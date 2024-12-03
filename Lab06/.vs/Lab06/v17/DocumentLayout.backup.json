@@ -48,9 +48,10 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Animal.cs",
               "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Animal.cs",
               "RelativeToolTip": "ConsoleApp1\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:17:04.113Z"
+              "WhenOpened": "2024-11-26T16:17:04.113Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,9 +61,10 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Person.cs",
               "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Person.cs",
               "RelativeToolTip": "ConsoleApp1\\Person.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAgwGcAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwF8AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:13:02.933Z"
+              "WhenOpened": "2024-11-26T16:13:02.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,7 +74,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T16:12:18.345Z",
               "EditorCaption": ""

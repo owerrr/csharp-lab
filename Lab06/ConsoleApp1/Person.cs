@@ -89,11 +89,11 @@ namespace ConsoleApp1
 
             return this.Age >= 18;
         }
-
-        public void Relate(Person p1, Person p2)
+        private void setPartner(Person p) { this.Partner = p; }
+        public static void Relate(Person p1, Person p2)
         {
-            p1.Partner = p2;
-            p2.Partner = p1;
+            p1.setPartner(p2);
+            p2.setPartner(p1);
         }
 
         public void AdoptAPet(Animal pet)
