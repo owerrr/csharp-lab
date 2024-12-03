@@ -10,11 +10,13 @@ namespace ConsoleApp1
     {
         public string Name { get; set; }
         public string Species { get; set; }
+        public string Species_Type { get; set; }
 
-        public Animal(string name, string species)
+        public Animal(string name, string species, string species_type)
         {
             this.Name = name;
             this.Species = species;
+            this.Species_Type = species_type;
         }
 
         

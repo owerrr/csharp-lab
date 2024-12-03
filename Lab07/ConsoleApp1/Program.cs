@@ -18,28 +18,37 @@ namespace ConsoleApp1
             //animal.FetchBall();
             dog.FetchBall();
 
+            Console.WriteLine("\n=========================\n\tZADANIE 1\n=========================\n");
+            Cat c1 = new Cat();
+            c1.Move();
+            Console.WriteLine(c1.Sound);
+            c1.ThrowOfTheTable();
+
+            Console.WriteLine("\n=========================\n\tZADANIE 2\n=========================\n");
             Dog dog2 = new Dog();
             dog2.Walk();
 
             IWalkable walkableDog = new Dog();
             walkableDog.Walk();
 
-            Cat c1 = new Cat();
+            Console.WriteLine("\n=========================\n\tZADANIE 3\n=========================\n");
             c1.Walk();
 
+            Console.WriteLine("\n=========================\n\tZADANIE 4\n=========================\n");
             dog2.Swim();
             Salmon s1 = new Salmon();
             s1.Swim();
 
+            Console.WriteLine("\n=========================\n\tZADANIE 5\n\tZADANIE 6\n=========================");
             Animal[] animals = { c1, dog, s1 };
             foreach(Animal a in animals)
             {
                 //Console.WriteLine(a.GetType().Name);
-                Console.WriteLine(a);
+                Console.WriteLine("\n"+a);
                 if (a is Mammal)
                     (a as Mammal).ProduceMilk();
                 if (a is ISwimmable)
-                    (a as ISwimmable).Swim();
+                    (a as ISwimmable).Swim();            
             }
 
             //Console.WriteLine(c1);

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    public class Appearance
+    public abstract class Appearance
     {
         public string EyesColor { get; set; }
         public string HairColor { get; set; }

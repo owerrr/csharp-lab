@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{958346CB-E3CA-4B5C-8ACF-DF2DC509F0E1}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{958346CB-E3CA-4B5C-8ACF-DF2DC509F0E1}|ConsoleApp1\\ConsoleApp1.csproj|d:\\users\\denis.biskup\\documents\\github\\csharp-lab\\lab06\\consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{958346CB-E3CA-4B5C-8ACF-DF2DC509F0E1}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{958346CB-E3CA-4B5C-8ACF-DF2DC509F0E1}|ConsoleApp1\\ConsoleApp1.csproj|d:\\users\\denis.biskup\\documents\\github\\csharp-lab\\lab06\\consoleapp1\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{958346CB-E3CA-4B5C-8ACF-DF2DC509F0E1}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{958346CB-E3CA-4B5C-8ACF-DF2DC509F0E1}|ConsoleApp1\\ConsoleApp1.csproj|d:\\users\\denis.biskup\\documents\\github\\csharp-lab\\lab06\\consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{958346CB-E3CA-4B5C-8ACF-DF2DC509F0E1}|ConsoleApp1\\ConsoleApp1.csproj|solutionrelative:consoleapp1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{958346CB-E3CA-4B5C-8ACF-DF2DC509F0E1}|ConsoleApp1\\ConsoleApp1.csproj|d:\\users\\denis.biskup\\documents\\github\\csharp-lab\\lab06\\consoleapp1\\appearance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,6 +30,20 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Animal.cs",
+              "DocumentMoniker": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Animal.cs",
+              "RelativeDocumentMoniker": "ConsoleApp1\\Animal.cs",
+              "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Animal.cs",
+              "RelativeToolTip": "ConsoleApp1\\Animal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T16:17:04.113Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Appearance.cs",
               "DocumentMoniker": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Appearance.cs",
@@ -43,19 +57,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Animal.cs",
-              "RelativeDocumentMoniker": "ConsoleApp1\\Animal.cs",
-              "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Animal.cs",
-              "RelativeToolTip": "ConsoleApp1\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T16:17:04.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Person.cs",
               "RelativeDocumentMoniker": "ConsoleApp1\\Person.cs",
@@ -74,7 +75,7 @@
               "RelativeDocumentMoniker": "ConsoleApp1\\Program.cs",
               "ToolTip": "D:\\Users\\denis.biskup\\Documents\\GitHub\\csharp-lab\\Lab06\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "ConsoleApp1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBsAAABxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T16:12:18.345Z",
               "EditorCaption": ""
